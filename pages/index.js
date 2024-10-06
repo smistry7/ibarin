@@ -17,7 +17,7 @@ export default function Home() {
         <section
           id="beranda"
           className="flex lg:hidden bg-cover bg-center  w-full h-screen  items-start py-14"
-          style={{ backgroundImage: 'url(/assets/prewedding-home.png)' }}
+          style={{ backgroundImage: 'url(/ibarin/assets/prewedding-home.png)' }}
         >
           <div className="flex flex-col  w-full relative">
             <div className="absolute h-full w-full bg-dark-450 bg-blur-2px"></div>
