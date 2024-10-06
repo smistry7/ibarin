@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Layout from '@/components/Layout/Layout';
-// import Resepsi from '../public/assets/icons/resepsi.svg';
 import Ring from '../public/assets/icons/ring.svg';
 
 import Location from '../public/assets/icons/location.svg';
@@ -23,11 +22,11 @@ export default function Home() {
           <div className="flex flex-col  w-full relative">
             <div className="absolute h-full w-full bg-dark-450 bg-blur-2px"></div>
             <div className="flex flex-col w-full text-white text-center h-auto  px-8 py-3.5 z-10">
-              <p className="font-habibi ">Pernikahan dari</p>
+              <p className="font-habibi ">Marriage of</p>
               <h4 className="font-great-vibes text-5xl mb-4 mt-6">
-                Bambang & Partini
+                Simon & Corlyn
               </h4>
-              <p className="font-habibi ">01 Januari 2021</p>
+              <p className="font-habibi ">5 May 2025</p>
             </div>
           </div>
         </section>
@@ -39,19 +38,19 @@ export default function Home() {
           <div className="flex flex-col text-white px-8 pb-20 pt-28 justify-end">
             <div className="flex flex-col text-center my-auto">
               <p>
-                “And of His signs is that He created for you from your selves
-                mates that you may find tranquility in them; and He placed
-                between you affection and mercy. Indeed in that are signs for a
-                people who give thought.”
+                “Love is patient, love is kind. It does not envy, it does not boast, it is not proud.
+                 It does not dishonor others, it is not self-seeking, it is not easily angered, 
+                 it keeps no record of wrongs. Love does not delight in evil but rejoices with the truth. 
+                 It always protects, always trusts, always hopes, always perseveres.”
               </p>
-              <p>( QS. Ar- Rum 21 )</p>
+              <p>( Corinthians 13:4-7 (NIV) )</p>
             </div>
             <div className="flex flex-col ">
-              <p className="font-habibi">Pernikahan dari</p>
+              <p className="font-habibi">Marriage of</p>
               <h4 className="font-great-vibes text-5xl mb-4 mt-6">
-                Bambang & Partini
+                Simon & Corlyn
               </h4>
-              <p className="font-habibi ml-auto">01 Januari 2021</p>
+              <p className="font-habibi ml-auto">5 May 2025</p>
             </div>
           </div>
           <div className="flex w-full relative">
@@ -72,23 +71,23 @@ export default function Home() {
           <div className="flex flex-col  w-full relative lg:h-full">
             <div className="absolute h-full w-full bg-dark-450 bg-blur-2px lg:hidden"></div>
             <div className="flex flex-col w-full text-white text-center h-auto  px-8 py-3.5 z-10 lg:my-auto">
-              <p className="font-habibi lg:hidden">Pernikahan dari</p>
+              <p className="font-habibi lg:hidden">Marriage of</p>
               <h4 className="font-great-vibes text-5xl lg:text-7xl mb-4 mt-6 ">
-                Bambang & Partini
+                Simon & Corlyn
               </h4>
-              <p className="lg:hidden font-habibi ">01 Januari 2021</p>
+              <p className="lg:hidden font-habibi ">5 May 2025</p>
             </div>
           </div>
           <div className="flex w-full px-8 text-white font-habibi text-sm md:text-base lg:text-xl">
             <div className="flex flex-col w-1/2 text-center px-2 break-words">
-              <p>Putra dari</p>
-              <p>Bapak Badril Munir</p>
-              <p>Ibu Sartinah</p>
+              <p>Son of</p>
+              <p>Simon dad</p>
+              <p>Simon mom</p>
             </div>
             <div className="flex flex-col w-1/2 text-center px-2 break-words ">
-              <p>Putra dari</p>
-              <p>Bapak Badril Munir</p>
-              <p>Ibu Sartinah</p>
+              <p>Daughter of</p>
+              <p>Corlyn dad</p>
+              <p>Corlyn mom</p>
             </div>
           </div>
           <div className="flex flex-col mx-auto h-40 lg:h-full items-center justify-center w-full px-8">
@@ -97,10 +96,10 @@ export default function Home() {
                 <Ring className="h-12 md:h-16 w-12 md:w-16  mr-6 my-auto" />
                 <div className="flex flex-col text-white font-habibi justify-between h-full">
                   <p className="text-base md:text-lg lg:text-3xl">
-                    Akad pernikahan{' '}
+                    Marriage ceremony{' '}
                   </p>
                   <p className="text-xs md:text-base lg:text-lg">
-                    Pukul 08.00 s.d 10.00 WIB
+                     08.00 - 10.00am
                   </p>
                 </div>
               </div>
@@ -111,22 +110,16 @@ export default function Home() {
                   className="h-12 md:h-16 w-12 md:w-16  mr-6 my-auto"
                 />
                 <div className="flex flex-col text-white font-habibi justify-between h-full">
-                  <p className="text-base md:text-lg lg:text-3xl">Resepsi </p>
+                  <p className="text-base md:text-lg lg:text-3xl">Reception </p>
                   <p className="text-xs md:text-base lg:text-lg">
-                    Pukul 10.00 s.d Selesai
+                     7:00pm 
                   </p>
                 </div>
               </div>
             </div>
             <p className="hidden md:block mt-12 lg:mt-auto mx-auto text-lg text-white font-habibi">
-              Bertempat di mempelai wanita, Perum permata hijau Blok F no 45
+              Pendrell Hall, Codsall Wood, Wolverhampton, WV8 1QP            
             </p>
-          </div>
-          <div className="flex mx-auto h-32 lg:h-full items-start lg:items-end justify-start w-full px-8">
-            <button className="mt-6 px-6 md:px-12 py-2 md:py-3 flex justify-center items-center border-white border rounded-l-full rounded-r-full mx-auto text-white font-habibi text-sm md:text-base">
-              <Location className="h-8 md:h-10 w-8 md:w-10 mr-4" />
-              Cek Lokasi
-            </button>
           </div>
         </section>
         <section
