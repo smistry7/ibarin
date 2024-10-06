@@ -4,7 +4,9 @@
 const nextConfig = {
     output: 'export',
     images:
-    {unoptimized: true}
+    {unoptimized: true},
+    basePath: '/ibarin/',
+    assetPrefix: '/ibarin/',
     // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
     // trailingSlash: true,
    
