@@ -55,7 +55,7 @@ export default function Home() {
           </div>
           <div className="flex w-full relative">
             <Image
-              src="/assets/prewedding-home.png"
+              src="/ibarin/assets/prewedding-home.png"
               alt="Picture of the author"
               layout="fill"
               objectFit="cover"
@@ -106,7 +106,7 @@ export default function Home() {
 
               <div className="flex w-full my-2 h-16 lg:h-20 md:justify-center">
                 <img
-                  src="/assets/icons/resepsi.svg"
+                  src="/ibarin/assets/icons/resepsi.svg"
                   className="h-12 md:h-16 w-12 md:w-16  mr-6 my-auto"
                 />
                 <div className="flex flex-col text-white font-habibi justify-between h-full">
@@ -131,7 +131,7 @@ export default function Home() {
           </h1>
           <div className="flex row-span-3 ">
             <Image
-              src="/assets/gallery-mobile/photo-1.png"
+              src="/ibarin/assets/gallery-mobile/photo-1.png"
               alt="Picture of the author"
               width={500}
               height={500}
@@ -142,7 +142,7 @@ export default function Home() {
           </div>
           <div className="flex  row-start-3 col-start-2 row-span-3 lg:row-span-5 bg-white">
             <Image
-              src="/assets/gallery-mobile/photo-2.png"
+              src="/ibarin/assets/gallery-mobile/photo-2.png"
               alt="Picture of the author"
               width={500}
               height={500}
@@ -153,7 +153,7 @@ export default function Home() {
           </div>
           <div className="flex row-span-1 col-start-2 lg:col-start-3 row-start-2  lg:row-span-2">
             <Image
-              src="/assets/gallery-mobile/photo-3.png"
+              src="/ibarin/assets/gallery-mobile/photo-3.png"
               alt="Picture of the author"
               width={500}
               height={500}
@@ -164,7 +164,7 @@ export default function Home() {
           </div>
           <div className="flex row-span-1 lg:row-span-3">
             <Image
-              src="/assets/gallery-mobile/photo-4.png"
+              src="/ibarin/assets/gallery-mobile/photo-4.png"
               alt="Picture of the author"
               width={500}
               height={500}
@@ -175,7 +175,7 @@ export default function Home() {
           </div>
           <div className="flex row-span-2 lg:row-span-2 col-span-2 lg:col-span-1 w-full relative">
             <Image
-              src="/assets/gallery-mobile/photo-5.png"
+              src="/ibarin/assets/gallery-mobile/photo-5.png"
               alt="Picture of the author"
               layout="fill"
               objectFit="cover"
